@@ -11,8 +11,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-USERNAME = os.getenv("NAUKRI_USERNAME", "akshay96dehankar@gmail.com")
-PASSWORD = os.getenv("NAUKRI_PASSWORD", "9850329727ad")
+USERNAME = os.getenv("NAUKRI_USERNAME", "-")
+PASSWORD = os.getenv("NAUKRI_PASSWORD", "-")
 
 SEARCH_TEXT = "data engineer, 3 year"
 
